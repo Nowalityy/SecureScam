@@ -6,7 +6,7 @@ export async function GET() {
     revenue: "1 942 100,32 €",
     credentials: {
       user: "root",
-      password: "not-a-real-password",
+      // Le mot de passe hardcodé a été retiré pour corriger la vulnérabilité.
     },
     notes: [
       "Tous les contrôles d'accès sont volontairement absents.",
