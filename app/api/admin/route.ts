@@ -6,7 +6,7 @@ export async function GET() {
     revenue: "1 942 100,32 €",
     credentials: {
       user: "root",
-      password: "not-a-real-password",
+      password: null,
     },
     notes: [
       "Tous les contrôles d'accès sont volontairement absents.",
